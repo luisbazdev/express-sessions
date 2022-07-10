@@ -179,4 +179,4 @@ app.post('/logout', (req: Request, res: Response) => {
     res.redirect('/login');
 })
 
-app.listen(process.env.PORT);
+app.listen(process.env.PORT || 8080);
