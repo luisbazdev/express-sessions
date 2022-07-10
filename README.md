@@ -1,0 +1,5 @@
+# express-sessions
+
+To run this project first you will need to install all the dependencies needed for the project to run, head to the root directory of the project and run **npm install**, then you will need to compile the TypeScript code inside **index.ts**, you can do that by heading to the root of the project and running the **npx tsc** command, which will compile all the TypeScript files in the **/src** directory (including **index.ts**) into JavaScript files in the **/build** directory, you can change this behavior as you wish by modifying the **tsconfig.json** file located on the root directory of the project.
+
+Once compiled the **index.ts** file into **index.js** in the **/build** directory, you can run the **npm start** command on the root directory of the project which will run the express server living in the **/build/index.js** file which, by default, runs on port 8080 though you can change the port it listens to by setting a 'PORT' environment variable in a **.env** file or modifying **index.ts** directly.
