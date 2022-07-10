@@ -6,6 +6,7 @@ require('dotenv').config();
  * practices to it (like using HTTPS cookies, providing a secret to sign session
  * cookies or generating very long strings for session ID, etcetera), which I 
  * didn't implement in here, so keep that in mind.
+ *
  * @author Luis Barraza (luisbazdev)
  */
 
