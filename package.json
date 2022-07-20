@@ -1,7 +1,7 @@
 {
   "name": "cookie-sessions",
   "version": "1.0.0",
-  "description": "An implementation of sessions using HTTPS cookies",
+  "description": "An implementation of sessions in Express using cookies (without express-session)",
   "main": "index.js",
   "scripts": {
     "start": "node build/index"
